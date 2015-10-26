@@ -1,0 +1,5 @@
+name = Custom Follow
+description = modify the follow module to add custom networks
+package = Custom Module
+core = 7.x
+files[] = wv_custom.module
