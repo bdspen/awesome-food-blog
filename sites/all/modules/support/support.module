@@ -1,0 +1,15 @@
+<?php
+
+  function recipe_node_form_alter(&$form, &$form_state, $form_id){
+    print 'something';
+    // $form['#recipe-node-form'];
+    if($form_id == 'recipe_node_form'){
+      print "hola";
+      print '<pre>';
+      print_r($form);
+      print '</pre>';
+    }else{
+      print "no bueno";
+    }
+    print_r($form_id);
+  }

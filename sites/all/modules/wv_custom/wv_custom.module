@@ -10,4 +10,14 @@
       'title' => t('Drupal.org'),
       'domain' => 'drupal.org',
     );
+
+    $networks[$uid]['github'] = array(
+      'title' => t('github.com'),
+      'domain' => 'github.com',
+    );
+
+    $networks[$uid]['etsy'] = array(
+      'title' => t('etsy.com'),
+      'domain' => 'etsy.com',
+    );
   }

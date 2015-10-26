@@ -98,6 +98,13 @@
 <?php print $selector_prefix; ?>a.follow-link-drupal{
   background-image: url(/sites/all/modules/follow/icons/small/icon-drupal.png);
 }
+<?php print $selector_prefix; ?>a.follow-link-github{
+  background-image: url(/sites/all/modules/follow/icons/large/github_01.png);
+}
+
+<?php print $selector_prefix; ?>a.follow-link-etsy{
+  background-image: url(/sites/all/modules/follow/icons/small/etsy.png);
+}
 
 <?php if (!empty($css_overrides)): ?>
 /* Custom overrides for this style. */
