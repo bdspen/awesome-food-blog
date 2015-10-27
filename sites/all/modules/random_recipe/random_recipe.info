@@ -1,0 +1,5 @@
+name = Random Recipe
+description = Custom module that takes the user to a random recipe node
+package = Custom Module
+core = 7.x
+files[] = random_recipe.module
